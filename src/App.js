@@ -116,8 +116,10 @@ function App() {
 
   return (
     <div className="App">
-      <center><h1>HN Candidates Search</h1>
-      <div id="author">by <a href="https://github.com/seisvelas/hn-candidates-search" id="xandre" rel="noopener noreferrer nofollow" target="_blank">Xandre</a></div></center>
+      <center>
+        <h1>HN Candidates Search</h1>
+        <div id="author">by <a href="https://github.com/seisvelas/hn-candidates-search" id="xandre" rel="noopener noreferrer nofollow" target="_blank">Xandre</a></div>
+      </center>
       <SearchBar setCondition={setCondition} />
       <Jobs comments={comments} condition={condition} />
     </div>
